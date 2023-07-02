@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Listen to This"
+date:   2023-07-02 12:59:10 -0400
+categories: webpage
+---
+
+# Software Defined Radio (SDR)
+
+It's 4th of July weekend, chances are someoneone, somewhere is listening to a radio. Its a opportunity as any to pull out the SDR dongle I have had sitting in my drawer.  
+
+Tampa 93.3 FM 
+
+![dongle](/assets/images/gqrx.png)
+
+
+## Materials
+
+1. Software Defined Radio & Antenna
+[RTL-SDR Blog V3 Amazon](https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0BMKZCKTF/ref=sr_1_3?crid=2BWETTH1T2F05&keywords=SDR%2BRTL&qid=1688314911&sprefix=sdr%2Brtl%2Caps%2C101&sr=8-3&th=1)
+
+
+![dongle](/assets/images/IMG_0961.jpg)
+
+
+![antenna](/assets/images/IMG_0962.jpg)
+
+
+## Setup 
+
+1. Software (GQRX SRD)
+[gqrx open source sofwawre defined radio](https://gqrx.dk/)
+ 
+
+## Helpful Links
+
+[RTL-SDR.com](https://www.rtl-sdr.com/)
+
+
