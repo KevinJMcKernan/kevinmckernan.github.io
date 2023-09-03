@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-02T13:09:07-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">Listen to This</title><link href="http://localhost:4000/webpage/2023/07/02/sdr-notes.html" rel="alternate" type="text/html" title="Listen to This" /><published>2023-07-02T12:59:10-04:00</published><updated>2023-07-02T12:59:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/02/sdr-notes</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/02/sdr-notes.html"><![CDATA[<h1 id="software-defined-radio-sdr">Software Defined Radio (SDR)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-03T13:12:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">FreeBSD and QEMU</title><link href="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html" rel="alternate" type="text/html" title="FreeBSD and QEMU" /><published>2023-07-07T14:00:10-04:00</published><updated>2023-07-07T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/07/qemu-freebsd</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html"><![CDATA[<h1 id="qemu-and-freebsd">QEMU and FreeBSD!</h1>
+
+<p>Setup a new Linux box with a good amount of RAM. Decided to play around with QEMU and FreeBSD a bit!</p>
+
+<ol>
+  <li>Installed QEMU and Virtual Machine Manager</li>
+  <li>Played with settings a fair bit.</li>
+  <li>Setup a FreeBSD VM.</li>
+  <li>Figured out how to setup Gnome</li>
+  <li>Figured out which virtual machine settings to enable in BIOS to get decent performance.</li>
+</ol>
+
+<p><img src="/assets/images/free_bsd_loading.png" alt="loading_screen" />
+Loading. . .</p>
+
+<p>(Also Charlie Root threw me for a loop.)</p>
+
+<p><img src="/assets/images/free_bsd_startup.png" alt="startup" /></p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[QEMU and FreeBSD!]]></summary></entry><entry><title type="html">Listen to This</title><link href="http://localhost:4000/webpage/2023/07/02/sdr-notes.html" rel="alternate" type="text/html" title="Listen to This" /><published>2023-07-02T12:59:10-04:00</published><updated>2023-07-02T12:59:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/02/sdr-notes</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/02/sdr-notes.html"><![CDATA[<h1 id="software-defined-radio-sdr">Software Defined Radio (SDR)</h1>
 
 <p>It’s 4th of July weekend, chances are someoneone, somewhere is listening to a radio. Its a opportunity as any to pull out the SDR dongle I have had sitting in my drawer.</p>
 
