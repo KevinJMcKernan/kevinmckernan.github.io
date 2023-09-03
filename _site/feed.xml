@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-03T13:12:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">FreeBSD and QEMU</title><link href="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html" rel="alternate" type="text/html" title="FreeBSD and QEMU" /><published>2023-07-07T14:00:10-04:00</published><updated>2023-07-07T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/07/qemu-freebsd</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html"><![CDATA[<h1 id="qemu-and-freebsd">QEMU and FreeBSD!</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-03T14:02:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">8-Bit Computer Part II - ALU All Day</title><link href="http://localhost:4000/webpage/2023/07/10/eight_bit_alu.html" rel="alternate" type="text/html" title="8-Bit Computer Part II - ALU All Day" /><published>2023-07-10T14:00:10-04:00</published><updated>2023-07-10T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/10/eight_bit_alu</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/10/eight_bit_alu.html"><![CDATA[<h1 id="8-bit-computer---alu-unit">8-Bit Computer - ALU Unit</h1>
+
+<p>The ALU unit is “fun”.</p>
+
+<p>First attempt at drawing. “The paper and pen attempt”. Failed after I started taping sheets of paper together. This feels like it would quickly lead to madness.
+<img src="/assets/images/pen_and_paper.jpg" alt="pen_and_paper" /></p>
+
+<p>Second attempt at drawing. “The whiteboard attempt” Failed after I started crossing wires and smudging everything to kingdom come.
+<img src="/assets/images/whiteboard.jpg" alt="whiteboard" /></p>
+
+<p>Third attempt at drawing. “Start to play around with KiCAD”
+<img src="/assets/images/kicad_1.png" alt="registers" /></p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[8-Bit Computer - ALU Unit]]></summary></entry><entry><title type="html">8-Bit Computer Part I - Clock and RAM</title><link href="http://localhost:4000/webpage/2023/07/09/eight_bit_build.html" rel="alternate" type="text/html" title="8-Bit Computer Part I - Clock and RAM" /><published>2023-07-09T14:00:10-04:00</published><updated>2023-07-09T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/09/eight_bit_build</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/09/eight_bit_build.html"><![CDATA[<h1 id="8-bit-computer">8-Bit Computer</h1>
+
+<p>Ben Eater has a great 8-bit computer kit and video lecture series. The kit is pretty kick-ass.</p>
+
+<p><a href="https://eater.net/8bit/">8bit</a></p>
+
+<h1 id="build-out">Build Out</h1>
+
+<p>Breezed through the Clock and RAM/Register Modules.</p>
+
+<p>Register Aseembly
+<img src="/assets/images/registers.jpg" alt="registers" /></p>
+
+<p>Register Testing
+<img src="/assets/images/register_testing.jpg" alt="registers" /></p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[8-Bit Computer]]></summary></entry><entry><title type="html">FreeBSD and QEMU</title><link href="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html" rel="alternate" type="text/html" title="FreeBSD and QEMU" /><published>2023-07-07T14:00:10-04:00</published><updated>2023-07-07T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/07/qemu-freebsd</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/07/qemu-freebsd.html"><![CDATA[<h1 id="qemu-and-freebsd">QEMU and FreeBSD!</h1>
 
 <p>Setup a new Linux box with a good amount of RAM. Decided to play around with QEMU and FreeBSD a bit!</p>
 
