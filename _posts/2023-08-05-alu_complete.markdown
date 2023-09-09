@@ -11,12 +11,13 @@ Finally wrapped up the 8-bit ALU build out with working addition and subtraction
 ![alu_complete](/assets/images/alu_complete.jpg)
 
 Along the journey ended up re-wiring the horrifying wiring job I started with. Photo I took along the way before replacing LED's
-![alu_wip](/assets/images/alu_wip.jpg)
+![alu_wip](/assets/images/alu_clean_wiring.jpg)
 
 
 On another note, following some build advice on the Ben Eater subreddit I swapped out the kit provided LEDs with some 3mm diffuse 5V LEDs. These are a pretty big improvement and don't need a resistor to keep from (continually) burning out. 
 
-5V LED's I used:
+
+5V LED's I used from Digikey:
 [Red 5V LEDs](https://www.digikey.com/en/products/detail/kingbright/WP710A10ID5V/3084187)
 
 
