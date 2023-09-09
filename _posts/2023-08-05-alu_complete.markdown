@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "8-Bit Computer - ALU Complete
+title:  "8-Bit Computer - ALU Complete"
 date:   2023-08-05 14:00:10 -0400
 categories: webpage
 ---
