@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-09T15:29:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">8-Bit Computer - ALU Complete</title><link href="http://localhost:4000/webpage/2023/08/05/alu_complete.html" rel="alternate" type="text/html" title="8-Bit Computer - ALU Complete" /><published>2023-08-05T14:00:10-04:00</published><updated>2023-08-05T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/08/05/alu_complete</id><content type="html" xml:base="http://localhost:4000/webpage/2023/08/05/alu_complete.html"><![CDATA[<h1 id="8-bit-computer---alu-unit-and-5v-leds">8-Bit Computer - ALU Unit and 5V LEDs</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-13T13:32:31-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">8-Bit Computer - Program Counter</title><link href="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html" rel="alternate" type="text/html" title="8-Bit Computer - Program Counter" /><published>2023-08-10T14:00:10-04:00</published><updated>2023-08-10T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/08/10/program_counter_memory</id><content type="html" xml:base="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html"><![CDATA[<h1 id="8-bit-computer---program-counter-and-memory">8-Bit Computer - Program Counter and Memory</h1>
+
+<p>The Ben Eater 8-bit computer kit is awesome. 
+<a href="https://eater.net/8bit/">8bit</a></p>
+
+<p>Just completed the Program Counter and Memory components.</p>
+
+<p>Memory
+<img src="/assets/images/mem.jpg" alt="mem" /></p>
+
+<p>Program Counter
+<img src="/assets/images/pc.jpg" alt="pc" /></p>
+
+<p>Note: Ran into an issue after completing the program counter where it would just repeat count 1. 
+Pin 1 needs to be tied to 5V on the LS161AN Adder. Allowing it to float causes it to reset.</p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[8-Bit Computer - Program Counter and Memory]]></summary></entry><entry><title type="html">8-Bit Computer - ALU Complete</title><link href="http://localhost:4000/webpage/2023/08/05/alu_complete.html" rel="alternate" type="text/html" title="8-Bit Computer - ALU Complete" /><published>2023-08-05T14:00:10-04:00</published><updated>2023-08-05T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/08/05/alu_complete</id><content type="html" xml:base="http://localhost:4000/webpage/2023/08/05/alu_complete.html"><![CDATA[<h1 id="8-bit-computer---alu-unit-and-5v-leds">8-Bit Computer - ALU Unit and 5V LEDs</h1>
 
 <p>Finally wrapped up the 8-bit ALU build out with working addition and subtraction and new 5V LEDs!
 <img src="/assets/images/alu_complete.jpg" alt="alu_complete" /></p>
