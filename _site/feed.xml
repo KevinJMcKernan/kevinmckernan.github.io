@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-13T13:32:31-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">8-Bit Computer - Program Counter</title><link href="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html" rel="alternate" type="text/html" title="8-Bit Computer - Program Counter" /><published>2023-08-10T14:00:10-04:00</published><updated>2023-08-10T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/08/10/program_counter_memory</id><content type="html" xml:base="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html"><![CDATA[<h1 id="8-bit-computer---program-counter-and-memory">8-Bit Computer - Program Counter and Memory</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-01-07T14:29:06-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kevin’s Project Journal</title><subtitle>Rolling along.</subtitle><entry><title type="html">8-Bit Computer - EEPROM Programming Part I</title><link href="http://localhost:4000/webpage/2023/10/15/eeprom_adventures.html" rel="alternate" type="text/html" title="8-Bit Computer - EEPROM Programming Part I" /><published>2023-10-15T14:00:10-04:00</published><updated>2023-10-15T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/10/15/eeprom_adventures</id><content type="html" xml:base="http://localhost:4000/webpage/2023/10/15/eeprom_adventures.html"><![CDATA[<h1 id="8-bit-computer---eeprom-programmer">8-Bit Computer - EEPROM Programmer</h1>
+
+<p>Continuing the build out of Ben Eater’s super cool 8 bit computer kit.
+<a href="https://eater.net/8bit/">8bit</a></p>
+
+<p>Constructed the EEPROM programmer. With prograbably my worst wiring to date.</p>
+
+<p>EEPROM Programmer
+<img src="/assets/images/programmer.jpg" alt="programmer" /></p>
+
+<p>Ran into difficulties programming the AT28C16 chip. Long story short, swapped it with one of the other 2 available. And it worked! Bad chip.</p>
+
+<p>Unfortunately the AT28C16 is discontinued and no longer available on Jamco or Mouser. Luckily the AT28C64 is! And has a ‘mostly’ similar pin layout. 
+Frustrated, I pulled out a TL66II+ programmer instead of updating the bread board programmer.</p>
+
+<p>Fancy Programmer
+<img src="/assets/images/eeprom_programmer.jpg" alt="fancy_programmer" /></p>
+
+<p>Steps Followed:</p>
+<ol>
+  <li>Installed <a href="https://gitlab.com/DavidGriffith/minipro/">minipro</a></li>
+  <li>Searched for the chip with cmd line: $ minipro -L AT28C64B</li>
+  <li>
+    <p>Write some hex as a binary file.</p>
+
+    <p>import binascii
+ test = [0x81, 0xcf, 0x92, 0x86, 0xcc, 0xa4, 0xa0, 0x8f, 0x80, 0x84, 0x88, 0xe0, 0xb1, 0xc2, 0xb0, 0xb8 ]</p>
+
+    <p>with open(‘file.bin’, ‘wb’) as bin_file:
+     for x in test:
+         print(bytes((x,)))
+         bin_file.write(bytes((x,)))</p>
+  </li>
+  <li>View file with $ xxd -b file.bin</li>
+  <li>Program the chip with $ minipro -p AT28C64B -w file.bin -s</li>
+  <li>Verify by reading the chip to a new file with $ minipro -p AT28C64B -r test.bin -s</li>
+</ol>
+
+<p>Side Note: My brain must have been in dumb mode. I checked amazon. . . AT28C16’s are available for a couple bucks.</p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[8-Bit Computer - EEPROM Programmer]]></summary></entry><entry><title type="html">8-Bit Computer - Program Counter</title><link href="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html" rel="alternate" type="text/html" title="8-Bit Computer - Program Counter" /><published>2023-08-10T14:00:10-04:00</published><updated>2023-08-10T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/08/10/program_counter_memory</id><content type="html" xml:base="http://localhost:4000/webpage/2023/08/10/program_counter_memory.html"><![CDATA[<h1 id="8-bit-computer---program-counter-and-memory">8-Bit Computer - Program Counter and Memory</h1>
 
 <p>The Ben Eater 8-bit computer kit is awesome. 
 <a href="https://eater.net/8bit/">8bit</a></p>
@@ -18,11 +56,11 @@ Pin 1 needs to be tied to 5V on the LS161AN Adder. Allowing it to float causes i
 <img src="/assets/images/alu_complete.jpg" alt="alu_complete" /></p>
 
 <p>Along the journey ended up re-wiring the horrifying wiring job I started with. Photo I took along the way before replacing LED’s
-<img src="/assets/images/alu_wip.jpg" alt="alu_wip" /></p>
+<img src="/assets/images/alu_clean_wiring.jpg" alt="alu_wip" /></p>
 
 <p>On another note, following some build advice on the Ben Eater subreddit I swapped out the kit provided LEDs with some 3mm diffuse 5V LEDs. These are a pretty big improvement and don’t need a resistor to keep from (continually) burning out.</p>
 
-<p>5V LED’s I used:
+<p>5V LED’s I used from Digikey:
 <a href="https://www.digikey.com/en/products/detail/kingbright/WP710A10ID5V/3084187">Red 5V LEDs</a></p>]]></content><author><name></name></author><category term="webpage" /><summary type="html"><![CDATA[8-Bit Computer - ALU Unit and 5V LEDs]]></summary></entry><entry><title type="html">8-Bit Computer Part II - ALU All Day</title><link href="http://localhost:4000/webpage/2023/07/10/eight_bit_alu.html" rel="alternate" type="text/html" title="8-Bit Computer Part II - ALU All Day" /><published>2023-07-10T14:00:10-04:00</published><updated>2023-07-10T14:00:10-04:00</updated><id>http://localhost:4000/webpage/2023/07/10/eight_bit_alu</id><content type="html" xml:base="http://localhost:4000/webpage/2023/07/10/eight_bit_alu.html"><![CDATA[<h1 id="8-bit-computer---alu-unit">8-Bit Computer - ALU Unit</h1>
 
 <p>The ALU unit is “fun”.</p>
